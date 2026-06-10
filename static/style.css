@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #2d5016 0%, #4a7c59 50%, #78b55a 100%);
+    color: #1a3c0f;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    background: linear-gradient(45deg, #ff6b35, #f7931e, #78b55a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.gradio-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(120, 181, 90, 0.3);
+}
+
+.chatbot {
+    background: linear-gradient(180deg, #f8fff5 0%, #e8f5e8 100%);
+    border: 3px solid #78b55a;
+    border-radius: 20px;
+}
+
+.gr-button {
+    background: linear-gradient(45deg, #78b55a, #4a7c59);
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.gr-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(120, 181, 90, 0.4);
+}
